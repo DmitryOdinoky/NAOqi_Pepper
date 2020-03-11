@@ -26,11 +26,11 @@ while True:
         print(decoded)
     elif data == b'end':
       
-        break
+        print(decoded)
     else:
         
         print("shithappens")
-        break
+        
 
 
 
