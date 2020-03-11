@@ -1,5 +1,5 @@
 import socket
-import win32com.client
+#import win32com.client
 import time
 
 PORT_NUMBER = 8080
