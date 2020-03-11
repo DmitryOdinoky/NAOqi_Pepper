@@ -6,7 +6,7 @@ PORT_NUMBER = 8080
 SIZE = 1024
 mySocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 mySocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-mySocket.bind(('192.168.4.13', PORT_NUMBER))
+mySocket.bind(('192.168.4.12', PORT_NUMBER))
 mySocket.listen(1)
 print("Listening for incoming connections")
 conn, addr = mySocket.accept()
