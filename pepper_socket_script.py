@@ -11,7 +11,7 @@ class MyClass(GeneratedClass):
 
     def onLoad(self):
 
-        SERVER_IP = '192.168.1.47'
+        SERVER_IP = '192.168.4.12'
         PORT = 8080
         SIZE = 1024
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
